@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-inherit p-7 flex items-center justify-between">
-      <div className="relative w-24 h-10 md:h-12 lg:h-16">
+      <a href="/" className="relative w-24 h-10 md:h-12 lg:h-16">
         <Image
           src="/logo.svg"
           alt="Chic Sal logo"
@@ -14,10 +14,10 @@ export default function Navbar() {
           objectFit="contain" // Ensures the image scales within its container
           priority
         />
-      </div>
+      </a>
       <div className='flex items-center gap-8'>
       <div className="hidden md:flex space-x-9 font-bold text-[1.15rem] text-[#36210f]">
-        <a href="" className="hover:text-gray-900 transition-colors">Home</a>
+        <a href="/" className="hover:text-gray-900 transition-colors">Home</a>
         <a href="/services" className="hover:text-gray-900 transition-colors">Services</a>
         <a href="/about" className="hover:text-gray-900 transition-colors">About</a>
         <p className="hover:text-gray-900 transition-colors">Others</p>
