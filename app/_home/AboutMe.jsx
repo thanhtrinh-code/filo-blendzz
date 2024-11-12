@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 export default function AboutMe() {
   return (
     <motion.div
-  className="w-screen bg-inherit flex justify-center items-center pt-20 px-4 sm:px-8 lg:px-16"
+  className="w-full bg-inherit flex justify-center items-center pt-20 px-4 sm:px-8 lg:px-16"
   initial={{ opacity: 0, y: 40 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 1, ease: "easeOut" }}

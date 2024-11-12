@@ -22,7 +22,7 @@ const testomonies = [
 ]
 export default function Testimonial() {
   return (
-    <motion.div className="w-screen text-center overflow-hidden"
+    <motion.div className="w-full text-center overflow-hidden"
     initial={{ opacity: 0, y: 30 }}
     whileInView={{
       opacity: 1,

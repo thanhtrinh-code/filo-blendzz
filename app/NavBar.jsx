@@ -20,6 +20,7 @@ export default function Navbar() {
         <a href="/" className="hover:text-gray-900 transition-colors">Home</a>
         <a href="/services" className="hover:text-gray-900 transition-colors">Services</a>
         <a href="/about" className="hover:text-gray-900 transition-colors">About</a>
+        <a href="/contact" className="hover:text-gray-900 transition-colors">Contact</a>
         <p className="hover:text-gray-900 transition-colors">Others</p>
       </div>
       <div className="hidden md:block">
